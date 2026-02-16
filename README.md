@@ -1,6 +1,4 @@
-# Readme.md
-
-# Web Programming Project - Team 3
+# Web Programming Project - CGG CAFE - Team 3
 
 The website is for a Coffee shop or a Café. It is a business website designed for the customers so they can contact and get to know about the Café. When we initially started this project for the previous module '**Building a Static Website**' it was more focused on these following things:
 
@@ -16,70 +14,78 @@ Further continuing this project for our current '**Web Programming**' module we 
 
 The theme of our website is modern and cozy. We used colors such as brown, beige, white, cream which reminds people of Coffee beans, chocolate and milk. It is designed to feel welcoming and relaxing.
 
-## Table of Contents
-- [Features](#features)
-- [Database Tables](#database-tables)
-- [Created Forms](#created-forms)
-- [Created Tables](#created-tables)
+# Target Audience
 
+The website is designed for people who live or visit the local area and enjoy high-quality coffee and snacks.
+Some specific group of users are: 
 
-## Features
+•	Students: They usually look for a quiet and cozy space or a place to study, work on their laptops. The ‘Book a Table’ feature is perfect for them because they can ensure they have a seat for a specific amount of time.
 
-In this section, list and describe the features or functionality that you are working on. You can use checkboxes to track the progress of each feature.
+•	Residents and tourists: People who want to meet up for a chat or just come there for relaxing or for enjoying their morning coffee in a calm and relaxing environment. They can check the prices and see the available snacks before visiting. 
 
-- [ ] Feature 1 (Full Name): Title of the feature. 
-- [ ] Feature 2 (Full Name): Title of the feature.
-- [ ] Feature 3 (Full Name): Title of the feature.
+•	Coffee Lovers: Customers who care about quality drinks. They visit site to see what specific drinks are served. 
 
-> Add features as required. 
+•	Busy customers: People who do not have time to call the café. They prefer to use the website, order the drink and pick it up later. 
 
-### Feature 1
+# Visual Effect
 
-Include more detailed information about Feature 1 here. Provide links to related code files (github) & link to the feature (shell.hamk.fi) .
+To make the website look cool and modern, we added a Parallax Scrolling Effect. 
 
-### Feature 2
+When the user scrolls down, the background image stays still while the content moves over it. This gives the website depth and makes it more interesting than a standard static page.
 
-Include more detailed information about Feature 2 here. Provide links to related code files (github) & link to the feature (shell.hamk.fi) .
+We kept the navigation bar fixed at the top so users can always find the ‘menu’ or ‘book a table’ or 'Log In' buttons easily. 
 
-### Feature 3
+# Color Palette   
 
-Include more detailed information about Feature 3 here. Provide links to related code files (github) & link to the feature (shell.hamk.fi) .
+We went through a few concepts of the color psychology, and we wanted to choose these colors because they represent Coffee, warm and welcoming environment also we went through accessibility principles and checked if the background and text have enough contrast.  
+Here is our chosen color palette: 
 
----
+•	Primary Color: Dark Coffee Brown #472717 
 
-## Database Tables
+Usage: This is the brand color. We used it for navigation bar, footers, buttons and main headings. 
+Why: It represents roasted coffee beans and gives a strong contrast against the light background. 
 
-List the database tables that are part of your project. 
+•	Secondary Color: Cream-Milk #FBF6F0
 
-- Table 1 (Created By): Table Name 
-- Table 2 (Created By): Table Name 
-- Table 3 (Created By): Table Name 
+Usage: We used this for the text inside the navigation bar and the footer. 
+Why: It is softer then pure white. It represents the milk foam on a cappuccino and looks very clear against the dark brown background. 
 
-> Include the ER Diagram of the database. 
+•	Accent Color: Mocha-Light Brown #8d6e63
 
----
+Usage: We used this for the prices on the menu and for small icons. 
+Why: It adds a little bit of color variation without being too bright or distracting. It connects the dark brown and the light background. 
 
-## Created Forms
+•	Background Color: Soft White #F9F9F9
 
-List and describe any forms that have been created as part of your project. Include details about the purpose of each form and any validation logic.
+Usage: This is the background color for the menu cards and the content sections. 
+Why: It makes the content look clean and modern, allowing the images of the food and coffee to stand out. 
 
-- Form 1 (Created By): Form Name: Link to the related code file (github) | Link to the form (shell.hamk.fi). | Validations Applied
-- Form 2: (Created By): Form Name: Link to the related code file (github) | Link to the form (shell.hamk.fi).  | Validations Applied
-- Form 3: (Created By): Form Name: Link to the related code file (github) | Link to the form (shell.hamk.fi).  | Validations Applied
+# Team members and Individual Contributions
 
+1.	Team Member: Subanjan Shah
+Contributions: 
+-	Created the index.php (Homepage) structure. 
+-	Designed the navigation bar (logo, links) and the footer (contact info, social media links).
+-	Implemented the Parallax Scrolling Effect on the homepage to make the background images move slowly. 
+-	Wrote the ‘about us’ and ‘top selling drink’ sections.
+-	Worked in the menu.php page and made sure the people can now click on the products and connected the cart.php page to the database table.
 
----
+2.	Team Member: Mohammad Ruhan Zahif Akhter Ghantiwala
+Contributions:
+-	Created the menu.php (Menu page).
+-	Designed the grid layout to display the coffee, drinks, and snacks in clean rows. 
+-	Managed the project.css file. This involved choosing the color palette, fonts, and button styles. Also, added the Bootstrap in menu.php and help.php codes.
+-	Selected and optimized all the images used for the coffee and bakery items.
+-	Created the card.php page fully functional. 
 
-## Created Tables
+3.	Team Member:  Akmeemana Madduma Acharige Maheesha Nuwangie Sumanadasa
+Contributions: 
+-	Created the help.php (Contact page) with the contact information. 
+-	Built the book a table modal (pop-up) where people can select a date and time. 
+-	Built the ‘order now’ modal on the top of the menu page so that the users can select quantity and see the total price.
+-	Created the login.php page and connected the page to database table to store the details.
 
-List any tables that you have created in the project work
-
-- Table 1 (Created By): Table Name | Link to the related code file (github) | Link to the table (shell.hamk.fi).
-- Table 2 (Created By): Table Name | Link to the related code file (github) | Link to the table (shell.hamk.fi).
-- Table 3 (Created By): Table Name | Link to the related code file (github) | Link to the table (shell.hamk.fi).
-
----
-
-
-
-> Feel free to customize this README template to suit your project's specific needs. Providing clear and organized documentation will help your team members understand the project's progress and tasks effectively. This document will have a significant impact on the grading. 
+## Joint Effort: 
+-	We all worked together to fix bugs and ensure the website worked correctly. 
+-	We tested the website on different screen sizes to make sure it looked good. 
+-	We brainstormed the ‘CGG Café’ brand name and theme together. 
