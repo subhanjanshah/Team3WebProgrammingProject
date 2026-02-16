@@ -25,5 +25,38 @@
         <div class="nav-side nav-right">
             <a href="https://maps.google.com" target="_blank" class="nav-item"><i class="fas fa-map-marked-alt"></i> Find Us</a>
             <a href="help.php" class="nav-item"><i class="fas fa-info-circle"></i> Contact Us</a>
+            
+            <?php
+            if (session_status() === PHP_SESSION_NONE) {
+                session_start();
+            }
+            
+            if(isset($_SESSION['user_id'])) {
+                $userName = isset($_SESSION['user_name']) ? $_SESSION['user_name'] : 'User';
+                if(strlen($userName) > 15) {
+                    $userName = substr($userName, 0, 12) . '...';
+                }
+                ?>
+                <div class="user-profile">
+                    <span class="user-name"><i class="fas fa-user-circle"></i> <?php echo htmlspecialchars($userName); ?></span>
+                    <div class="user-dropdown">
+                        <i class="fas fa-chevron-down" style="color: #472717; cursor: pointer; font-size: 12px;"></i>
+                        <div class="dropdown-content">
+                            <a href="profile.php"><i class="fas fa-user"></i> My Profile</a>
+                            <a href="my-bookings.php"><i class="fas fa-calendar-check"></i> My Bookings</a>
+                            <a href="orders.php"><i class="fas fa-shopping-bag"></i> My Orders</a>
+                            <a href="settings.php"><i class="fas fa-cog"></i> Settings</a>
+                            <hr>
+                            <a href="logout.php" style="color: #c62828;"><i class="fas fa-sign-out-alt"></i> Logout</a>
+                        </div>
+                    </div>
+                </div>
+                <?php
+            } else {
+                ?>
+                <a href="login.php" class="nav-item login-btn"><i class="fas fa-sign-in-alt"></i> Sign In</a>
+                <?php
+            }
+            ?>
         </div>
     </nav>
