@@ -1,6 +1,8 @@
 # Web Programming Project - CGG CAFE - Team 3
 
-The website is for a Coffee shop or a Café. It is a business website designed for the customers so they can contact and get to know about the Café. When we initially started this project for the previous module '**Building a Static Website**' it was more focused on these following things:
+The website is for a Coffee shop or a Café. It is a business website designed for the customers so they can contact and get to know about the Café. The theme of our website is modern and cozy. We used colors such as brown, beige, white, cream which reminds people of Coffee beans, chocolate and milk. It is designed to feel welcoming and relaxing.
+
+When we initially started this project for the previous module '**Building a Static Website**' it was more focused on these following things:
 
 •	View the menu
 
@@ -16,11 +18,12 @@ Further continuing this project for our current '**Web Programming**' module we 
 
 • A new page 'Log In' is added where people can log in so they can book tables and order drinks easily.
 
-The theme of our website is modern and cozy. We used colors such as brown, beige, white, cream which reminds people of Coffee beans, chocolate and milk. It is designed to feel welcoming and relaxing.
+• Another new feature 'Cart' or 'Add to cart' had been added so people can select/order multiple items from our menu and check out with all of the products they want at the end easily.
 
-# Target Audience
+## Target Audience
 
 The website is designed for people who live or visit the local area and enjoy high-quality coffee and snacks.
+
 Some specific group of users are: 
 
 •	Students: They usually look for a quiet and cozy space or a place to study, work on their laptops. The ‘Book a Table’ feature is perfect for them because they can ensure they have a seat for a specific amount of time.
@@ -31,7 +34,7 @@ Some specific group of users are:
 
 •	Busy customers: People who do not have time to call the café. They prefer to use the website, order the drink and pick it up later. 
 
-# Visual Effect
+## Visual Effect
 
 To make the website look cool and modern, we added a Parallax Scrolling Effect. 
 
@@ -39,9 +42,10 @@ When the user scrolls down, the background image stays still while the content m
 
 We kept the navigation bar fixed at the top so users can always find the ‘menu’ or ‘book a table’ or 'Log In' buttons easily. 
 
-# Color Palette   
+## Color Palette   
 
-We went through a few concepts of the color psychology, and we wanted to choose these colors because they represent Coffee, warm and welcoming environment also we went through accessibility principles and checked if the background and text have enough contrast.  
+We went through a few concepts of the color psychology, and we wanted to choose these colors because they represent Coffee, warm and welcoming environment also we went through accessibility principles and checked if the background and text have enough contrast.
+
 Here is our chosen color palette: 
 
 •	Primary Color: Dark Coffee Brown #472717 
@@ -64,7 +68,7 @@ Why: It adds a little bit of color variation without being too bright or distrac
 Usage: This is the background color for the menu cards and the content sections. 
 Why: It makes the content look clean and modern, allowing the images of the food and coffee to stand out. 
 
-# Team members and Individual Contributions
+## Team members and Individual Contributions
 
 1.	Team Member: Subanjan Shah
 
@@ -95,7 +99,7 @@ Contributions:
 -	Built the ‘order now’ modal on the top of the menu page so that the users can select quantity and see the total price.
 -	Created the login.php page and connected the page to database table to store the details.
 
-## Joint Effort: 
+### Joint Effort: 
 
 -	We all worked together to fix bugs and ensure the website worked correctly. 
 -	We tested the website on different screen sizes to make sure it looked good. 
