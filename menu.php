@@ -124,7 +124,7 @@ include 'header.php';
                 <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
             </div>
             <div class="modal-body">
-                <img id="modalItemImage" src="" class="img-fluid mb-3" style="border-radius: 10px; height: 200px; width: 100%; object-fit: contain;">
+                <img id="modalItemImage" src="" class="card-img-top" style="height:360px; object-fit: cover;">
                 <form id="orderForm">
                     <div class="mb-3">
                         <label class="form-label fw-bold">Quantity (1-10):</label>
