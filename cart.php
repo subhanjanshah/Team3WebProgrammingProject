@@ -82,7 +82,7 @@ include 'header.php';
                     <td style="padding: 20px;">${itemQty}</td>
                     <td style="padding: 20px; font-family: 'Lora', serif; font-weight: 700;">${subtotal.toFixed(2)}€</td>
                     <td style="padding: 20px;">
-                        <a href="#" onclick="clearItem()" style="color: #ff4d4d; font-size: 12px; text-transform: uppercase; font-weight: 700; letter-spacing: 1px;">Remove</a>
+                        <a href="#" onclick="clearItem()" style="color: #6c2f2fff; font-size: 12px; text-transform: uppercase; font-weight: 700; letter-spacing: 1px;">Remove</a>
                     </td>
                 </tr>
             `;
@@ -114,5 +114,4 @@ include 'header.php';
 
     window.onload = displayCart;
 </script>
-
 <?php include 'footer.php'; ?>
