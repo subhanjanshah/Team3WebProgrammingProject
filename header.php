@@ -16,15 +16,15 @@
             <a href="index.php" class="nav-item"><i class="fas fa-home"></i> Home</a>
             <a href="menu.php" class="nav-item"><i class="fas fa-utensils"></i> Menu</a>
             <a href="booking.php" class="nav-item"><i class="fas fa-calendar-alt"></i> Book a Table</a>
+            <a href="cart.php" class="nav-item"><i class="fas fa-shopping-cart"></i> Cart</a>
         </div>
         
         <div class="nav-logo">
-            <img src="logo.png" alt="CGG CAFE">
+            <img src="../photosused/logo.png" alt="CGG CAFE">
         </div>
         
         <div class="nav-side nav-right">
             <a href="https://maps.google.com" target="_blank" class="nav-item"><i class="fas fa-map-marked-alt"></i> Find Us</a>
-            <a href="help.php" class="nav-item"><i class="fas fa-info-circle"></i> Contact Us</a>
             
             <?php
             if (session_status() === PHP_SESSION_NONE) {
